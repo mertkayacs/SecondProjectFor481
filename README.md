@@ -61,11 +61,11 @@ The tests are the coursework, and the exercises around them are there to read.
     </td>
     <td width="50%" valign="top">
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="docs/assets/readme/tour/branches-dark.webp">
-        <img src="docs/assets/readme/tour/branches-light.webp" alt="JaCoCo source view of Util.java with covered lines in green">
+        <source media="(prefers-color-scheme: dark)" srcset="docs/assets/readme/tour/util-dark.webp">
+        <img src="docs/assets/readme/tour/util-light.webp" alt="Code card showing the compute method in Util.java">
       </picture>
-      <h3>Util.java covered</h3>
-      Every line and branch of Util.java is marked green in the source view.
+      <h3>Util.java source</h3>
+      compute returns early for one argument and for an even count, throws on zero, and then checks whether the sum divides any argument.
     </td>
   </tr>
   <tr>
@@ -88,7 +88,7 @@ The tests are the coursework, and the exercises around them are there to read.
   </tr>
 </table>
 
-<p align="center"><sub>The report pages come from running mvn test jacoco:report with Java 8. The code card shows the test file as it is in the repository.</sub></p>
+<p align="center"><sub>The report pages come from running mvn test jacoco:report with Java 8. The code cards show source files as they are in the repository.</sub></p>
 
 ## Features
 
