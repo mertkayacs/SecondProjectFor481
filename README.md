@@ -80,7 +80,7 @@ The tests are the coursework, and the exercises around them are there to read.
     <td width="50%" valign="top">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="docs/assets/readme/tour/tests-dark.webp">
-        <img src="docs/assets/readme/tour/tests-light.webp" alt="Code card showing the start of TestCompute.java">
+        <img src="docs/assets/readme/tour/tests-light.webp" alt="Code card showing the first two tests in TestCompute.java">
       </picture>
       <h3>Mockito tests</h3>
       TestCompute mocks MessageQueue with Mockito to reach the branches of Compute.
