@@ -26,6 +26,13 @@
   <a href="https://mertkayacs.com/?utm_source=github&utm_medium=readme&utm_campaign=SecondProjectFor481-repo&utm_content=portfolio-badge"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-1E2A38?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0Ij48ZyBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgc3Ryb2tlLXdpZHRoPSIyIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCIvPjxwYXRoIGQ9Ik0xMiAyYTE0LjUgMTQuNSAwIDAgMCAwIDIwYTE0LjUgMTQuNSAwIDAgMCAwLTIwTTIgMTJoMjAiLz48L2c%2BPC9zdmc%2B&logoColor=white"></a>
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/readme/hero-dark.webp">
+    <img src="docs/assets/readme/hero-light.webp" alt="JaCoCo source view of Util.java with every line and branch marked as covered" width="960">
+  </picture>
+</p>
+
 481 Project 2 is the second project of a Software Engineering course. The repository holds eight small Java exercises that came as starter code, among them a visitor pattern demo, a method suggestion engine built on an ANTLR Java grammar and an XML graph generator. The coursework is the branchCoverage folder. That project started at 8 percent test coverage and needed JUnit tests to reach 100 percent, measured with JaCoCo. The last commit message records that JaCoCo reported 100 percent.
 
 ---
@@ -39,6 +46,49 @@ The tests are the coursework, and the exercises around them are there to read.
 | <img src="docs/assets/readme/icons/shield-check.svg" width="18" height="18" alt=""> **Tests for full coverage** | TestCompute.java and TestUtil.java sit in [branchCoverage/my-app/src/test/java](branchCoverage/my-app/src/test/java) and test the classes in that project. |
 | <img src="docs/assets/readme/icons/gauge.svg" width="18" height="18" alt=""> **Measured with JaCoCo** | The pom wires in the JaCoCo agent, JUnit and Mockito, so coverage is one Maven command away. |
 | <img src="docs/assets/readme/icons/book-open.svg" width="18" height="18" alt=""> **Eight exercises to read** | For example, [autocompletion](autocompletion/README.md) ranks method names by Levenshtein distance to a word. |
+
+## A quick tour
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="docs/assets/readme/tour/report-dark.webp">
+        <img src="docs/assets/readme/tour/report-light.webp" alt="JaCoCo summary page showing 100 percent instruction and branch coverage">
+      </picture>
+      <h3>Coverage summary</h3>
+      JaCoCo reports 0 of 108 instructions and 0 of 20 branches missed for the project.
+    </td>
+    <td width="50%" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="docs/assets/readme/tour/branches-dark.webp">
+        <img src="docs/assets/readme/tour/branches-light.webp" alt="JaCoCo source view of Util.java with covered lines in green">
+      </picture>
+      <h3>Util.java covered</h3>
+      Every line and branch of Util.java is marked green in the source view.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="docs/assets/readme/tour/compute-dark.webp">
+        <img src="docs/assets/readme/tour/compute-light.webp" alt="JaCoCo source view of Compute.java with covered lines in green">
+      </picture>
+      <h3>Compute.java covered</h3>
+      The same green view for Compute.java.
+    </td>
+    <td width="50%" valign="top">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="docs/assets/readme/tour/tests-dark.webp">
+        <img src="docs/assets/readme/tour/tests-light.webp" alt="Code card showing the start of TestCompute.java">
+      </picture>
+      <h3>Mockito tests</h3>
+      TestCompute mocks MessageQueue with Mockito to reach the branches of Compute.
+    </td>
+  </tr>
+</table>
+
+<p align="center"><sub>The report pages come from running mvn test jacoco:report with Java 8. The code card shows the test file as it is in the repository.</sub></p>
 
 ## Features
 
@@ -88,5 +138,7 @@ Java, make and the ANTLR 4.6 complete jar at the path set in each Makefile.
 </details>
 
 If 481 Project 2 is useful to you, a ⭐ helps other people find it.
+
+Photos behind the screenshots are credited in [docs/assets/readme/CREDITS.md](docs/assets/readme/CREDITS.md).
 
 [![views](https://hits.sh/github.com/mertkayacs/SecondProjectFor481.svg?view=today-total&style=flat-square&label=views&color=4F7A63&labelColor=1E2A38)](https://github.com/mertkayacs/SecondProjectFor481)
